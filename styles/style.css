@@ -1,0 +1,24 @@
+.section-paieska {
+    padding: 0px;
+    font-size: 10px;
+    width: 100%;
+    border: #f4f4f4 3px solid;
+}
+
+.card .card-image .card-title {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: 24px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 100%;
+}
