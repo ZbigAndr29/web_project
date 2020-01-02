@@ -2,7 +2,7 @@
 // Sidenav 
 document.addEventListener('DOMContentLoaded', function () {
     var sidenav = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(sidenav, options);
+    var instances = M.Sidenav.init(sidenav);
 });
 
 // Autocomplete (automatinis) ac - autocomplete
@@ -24,5 +24,5 @@ document.addEventListener('DOMContentLoaded', function () {
             "Anglija": null,
             "Lietuva": null,
         }
-    }
+    });
 });

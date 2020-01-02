@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Projektinis darbas</title>
+    <title>Atrasti</title>
 
     <!-- Importuoti (import) materialize.css -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -63,7 +63,7 @@
                 <img class="responsive-img" src="img/23.jpg" alt="">
             </div>
             <div class="col s6">
-                <h1>Nuotykis</h1>
+                <h1>Atrasti</h1>
                 <p>Tai mano svajonė keliauti po pasaulį.</p>
                 <p>Gyvenimas yra nuotykis, dalyvauk jame.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, recusandae!</p>
@@ -103,21 +103,21 @@
                     <div class="card-panel blue lighten-4">
                         <h3>Ispanija</h3>
                         <img class="responsive-img" src="img/32.jpg" alt="">
-                        <a class="btn orange" href="atrasti.php">Atrasti</a>
+                        <button class="orange" type="button">Atrasti</button>
                     </div>
                 </div>
                 <div class="col s4 s1">
                     <div class="card-panel blue lighten-4">
                         <h3>Italija</h3>
                         <img class="responsive-img" src="img/43.jpg" alt="">
-                        <a class="btn orange" href="atrasti.php">Atrasti</a>
+                        <button class="orange" type="button">Atrasti</button>
                     </div>
                 </div>
                 <div class="col s4 s1">
                     <div class="card-panel blue lighten-4">
                         <h3>Turkija</h3>
                         <img class="responsive-img" src="img/53.jpg" alt="">
-                        <a class="btn orange" href="atrasti.php">Atrasti</a>
+                        <button class="orange" type="button">Atrasti</button>
                     </div>
                 </div>
             </div>
