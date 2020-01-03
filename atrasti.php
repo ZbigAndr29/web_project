@@ -99,21 +99,21 @@
     <section class="section section-icons yellow lighten-3 center">
         <div class="container">
             <div class="row">
-                <div class="col s4 s1">
+                <div class="col s3 s1">
                     <div class="card-panel blue lighten-4">
                         <h3>Ispanija</h3>
                         <img class="responsive-img" src="img/32.jpg" alt="">
                         <button class="orange" type="button">Atrasti</button>
                     </div>
                 </div>
-                <div class="col s4 s1">
+                <div class="col s3 s1">
                     <div class="card-panel blue lighten-4">
                         <h3>Italija</h3>
                         <img class="responsive-img" src="img/43.jpg" alt="">
                         <button class="orange" type="button">Atrasti</button>
                     </div>
                 </div>
-                <div class="col s4 s1">
+                <div class="col s3 s1">
                     <div class="card-panel blue lighten-4">
                         <h3>Turkija</h3>
                         <img class="responsive-img" src="img/53.jpg" alt="">

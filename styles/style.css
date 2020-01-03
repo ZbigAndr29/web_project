@@ -22,3 +22,10 @@
 .card {
     height: 100%;
 }
+
+.fonas {
+    border: 0;
+    border-radius: 0;
+    padding: 30px;
+    width: 100px;
+}

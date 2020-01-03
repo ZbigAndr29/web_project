@@ -24,9 +24,7 @@
         background-position: center center;
         "></div>
     <!-- <img class="responsive-img" src="img/foto1.jpg" alt=""> -->
-    <div class="container">
-        <!-- <div class="row"></div> -->
-    </div>
+    <div class="container"></div>
 
     <!-- Section (skyrius):
         1. Components (komponentai) -> Navbar (naršymo juosta) -> Right Aligned Links (dešinė lygiuota nuorodos); 
@@ -80,14 +78,14 @@
             <div class="row">
                 <div class="col s12">
                     <!-- <div class="row"> -->
-                        <h2>Paieška</h2>
-                        <div class="input-field col s12">
-                            <input type="text" id="autocomplete-input" class="autocomplete white grey-text" placeholder="Ispanija, Italija, Turkija, kiti...">
-                            <!-- <label for="autocomplete-input">Ispanija, Italija, Turkija, kiti...</label> -->
-                        </div>
+                    <h2>Paieška</h2>
+                    <div class="input-field col s12">
+                        <input type="text" id="autocomplete-input" class="autocomplete white grey-text" placeholder="Ispanija, Italija, Turkija, kiti...">
+                        <!-- <label for="autocomplete-input">Ispanija, Italija, Turkija, kiti...</label> -->
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -181,14 +179,77 @@
                 <div class="col s12">
                     <h4>Follow Geriausio kelionės</h4>
                     <p>Sekite mus socialiniuose tinkluose specialiems pasiūlymams</p>
-                    <a href="#" class="white-text">
-                        <img src="" alt="">
-                        <!-- <i img="img/facebook.png">Facebook</i> -->
-                    </a>
+                    <div class="card-image">
+                        <a href="#">
+                            <img class="fonas" src="img/facebook.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="fonas" src="img/instagram.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="fonas" src="img/search.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <!-- Section (skyrius): Gallery (galerija) -->
+
+    <section id="gallery" class="section section-gallery scrollspy">
+        <div class="container">
+            <h5 class="center">
+                <span class="indigo-text darken-4">Foto</span> Galerija
+            </h5>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/user/erondu/1600x900/?beach" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/user/erondu/1600x900/?travel" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/user/erondu/1600x900/?nature" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/user/erondu/1600x900/?beach,travel" alt="" class="materialboxed responsive-img">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/user/erondu/1600x900/?water" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/user/erondu/1600x900/?building" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/user/erondu/1600x900/?trees" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/user/erondu/1600x900/?cruise" alt="" class="materialboxed responsive-img">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/user/erondu/1600x900/?beaches" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/user/erondu/1600x900/?traveling" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/user/erondu/1600x900/?bridge" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/user/erondu/1600x900/?beach,travel,boat" alt="" class="materialboxed responsive-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- JavaScript korpuso gale, kad būtų galima optimaliai pakrauti (JavaScript at end of body for optimized loading) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
