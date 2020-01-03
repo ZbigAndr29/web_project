@@ -259,8 +259,35 @@
             <div class="row">
                 <div class="col s12 m6">
                     <div class="card-panel orange white-text center">
-                    <i class="material-icons">email</i>
-                    <h6>Susisiekite su mumis dėl rezervacijos</h6>
+                        <i class="material-icons">email</i>
+                        <h5>Susisiekite su mumis dėl rezervacijos</h5>
+                        <p>Gaukite geriausius kelionių pasiūlymus pirmi</p>
+                    </div>
+                    <ul class="collection with-header">
+                        <li class="collection-header">
+                            <h6>Vieta</h6>
+                        </li>
+                        <li class="collection-item">Geriausio Kelionės agentura</li>
+                        <li class="collection-item">Vilnius, Lietuva</li>
+                        <li class="collection-item">el.pastas@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card-panel grey lighten-3">
+                        <h6>Prašome užpildyti šią formą</h6>
+                        <div class="input-field">
+                            <input type="text" placeholder="Vardas">
+                        </div>
+                        <div class="input-field">
+                            <input type="text" placeholder="El. paštas">
+                        </div>
+                        <div class="input-field">
+                            <input type="text" placeholder="Telefonas">
+                        </div>
+                        <div class="input-field">
+                            <textarea class="materialize-textarea" placeholder="Įveskite pranešimas"></textarea>
+                        </div>
+                        <input type="submit" value="Pateikti" class="btn">
                     </div>
                 </div>
             </div>
