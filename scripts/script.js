@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var instances = M.Sidenav.init(sidenav);
 });
 
+
 // Autocomplete (automatinis) ac - autocomplete
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -25,3 +26,11 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+// JavaScript -> Media
+// Material Boxed (medziaga dezuteje) mb - material boxed
+
+document.addEventListener('DOMContentLoaded', function() {
+    var mb = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(mb);
+  });

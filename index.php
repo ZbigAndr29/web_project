@@ -196,7 +196,9 @@
     </section>
 
 
-    <!-- Section (skyrius): Gallery (galerija) -->
+    <!-- Section (skyrius): Gallery (galerija) 
+        1. JavaScript -> Media (žiniasklaida) -->
+
 
     <section id="gallery" class="section section-gallery scrollspy">
         <div class="container">
@@ -205,46 +207,61 @@
             </h5>
             <div class="row">
                 <div class="col s12 m3">
-                    <img src="https://source.unsplash.com/user/erondu/1600x900/?beach" alt="" class="materialboxed responsive-img">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beach" alt="">
                 </div>
                 <div class="col s12 m3">
-                    <img src="https://source.unsplash.com/user/erondu/1600x900/?travel" alt="" class="materialboxed responsive-img">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?travel" alt="">
                 </div>
                 <div class="col s12 m3">
-                    <img src="https://source.unsplash.com/user/erondu/1600x900/?nature" alt="" class="materialboxed responsive-img">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?nature" alt="">
                 </div>
                 <div class="col s12 m3">
-                    <img src="https://source.unsplash.com/user/erondu/1600x900/?beach,travel" alt="" class="materialboxed responsive-img">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col s12 m3">
-                    <img src="https://source.unsplash.com/user/erondu/1600x900/?water" alt="" class="materialboxed responsive-img">
-                </div>
-                <div class="col s12 m3">
-                    <img src="https://source.unsplash.com/user/erondu/1600x900/?building" alt="" class="materialboxed responsive-img">
-                </div>
-                <div class="col s12 m3">
-                    <img src="https://source.unsplash.com/user/erondu/1600x900/?trees" alt="" class="materialboxed responsive-img">
-                </div>
-                <div class="col s12 m3">
-                    <img src="https://source.unsplash.com/user/erondu/1600x900/?cruise" alt="" class="materialboxed responsive-img">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beach,travel" alt="">
                 </div>
             </div>
 
             <div class="row">
                 <div class="col s12 m3">
-                    <img src="https://source.unsplash.com/user/erondu/1600x900/?beaches" alt="" class="materialboxed responsive-img">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?water" alt="">
                 </div>
                 <div class="col s12 m3">
-                    <img src="https://source.unsplash.com/user/erondu/1600x900/?traveling" alt="" class="materialboxed responsive-img">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?building" alt="">
                 </div>
                 <div class="col s12 m3">
-                    <img src="https://source.unsplash.com/user/erondu/1600x900/?bridge" alt="" class="materialboxed responsive-img">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?trees" alt="">
                 </div>
                 <div class="col s12 m3">
-                    <img src="https://source.unsplash.com/user/erondu/1600x900/?beach,travel,boat" alt="" class="materialboxed responsive-img">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?cruise" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beaches" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?traveling" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?bridge" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beach,travel,boat" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section (skyrius): Kontaktai (Contact) -->
+
+    <section id="contact" class="section section-contact scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card-panel orange white-text center">
+                    <i class="material-icons">email</i>
+                    <h6>Susisiekite su mumis dėl rezervacijos</h6>
+                    </div>
                 </div>
             </div>
         </div>
