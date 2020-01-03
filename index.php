@@ -48,7 +48,7 @@
     </ul>
 
     <!-- Section (skyrius): 
-        1.CSS grid indroduction (css tinklelio įvedimas) -->
+        1.CSS -> grid (tinklelis) -> indroduction (įvadas) -->
 
     <div class="container">
         <div class="row">
@@ -76,7 +76,6 @@
                     <h2>Paieška</h2>
                     <div class="input-field col s12">
                         <input type="text" id="autocomplete-input" class="autocomplete white grey-text" placeholder="Ispanija, Italija, Turkija, kiti...">
-                        <!-- <label for="autocomplete-input">Ispanija, Italija, Turkija, kiti...</label> -->
                     </div>
                 </div>
             </div>
