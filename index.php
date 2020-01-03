@@ -17,12 +17,7 @@
 </head>
 
 <body>
-    <div style="
-        background-image: url(img/foto1.jpg);
-        height: 100vh;
-        background-size: cover;
-        background-position: center center;
-        "></div>
+    <div class="fonas1"></div>
     <!-- <img class="responsive-img" src="img/foto1.jpg" alt=""> -->
     <div class="container"></div>
 
