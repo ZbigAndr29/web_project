@@ -1,6 +1,6 @@
-/* body {
+body {
     margin: 0;
-} */
+}
 
 nav {
     color: #fff;
@@ -31,6 +31,14 @@ nav {
 .row {
     display: flex;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.row .col {
+    padding: 10px;
 }
 
 .card {
@@ -49,4 +57,26 @@ nav {
     height: 100vh;
     background-size: cover;
     background-position: center center;
+}
+
+.center {
+    text-align: center;
+}
+
+h5 {
+    font-size: 30px;
+    line-height: 100%;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 100%;
+    margin: 5px;
+}
+
+.card-panel {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 20px;
 }

@@ -18,7 +18,6 @@
 
 <body>
     <div class="fonas1"></div>
-    <!-- <img class="responsive-img" src="img/foto1.jpg" alt=""> -->
 
 
     <!-- Section (skyrius):
@@ -66,7 +65,7 @@
         1. Forms (formos) -> autocomplete (automatinis) 
         2. HTML <input> placeholder Attribute w3schools.com (HTML <input> vietos rezervavimo ženklas atributas) -->
 
-        <div style="background-color: red">
+        <div style="background-color: red; color: #fff; text-align: center;">
             <div class="row">
                 <div class="col s12">
                     <h2>Paieška</h2>
@@ -84,26 +83,28 @@
         2. Components (komponentai) -> cards (korteles) -> image card (vaizdo kortele) ...; 
         3. CSS -> Grid (tinklelis) -> Example Promotion Table (Skatinimo lentelės pavyzdys) ... -->
 
-        <div class="row">
-            <div class="col s4 s1">
-                <div class="card-panel blue lighten-4">
-                    <h3>Ispanija</h3>
-                    <img class="responsive-img" src="img/32.jpg" alt="">
-                    <a class="btn orange" href="atrasti.php">Atrasti</a>
+        <div style="background-color: greenyellow; text-align: center;">
+            <div class="row">
+                <div class="col s4 s1">
+                    <div class="card-panel blue lighten-4">
+                        <h3>Ispanija</h3>
+                        <img class="responsive-img" src="img/32.jpg" alt="">
+                        <a class="btn orange" href="atrasti.php">Atrasti</a>
+                    </div>
                 </div>
-            </div>
-            <div class="col s4 s1">
-                <div class="card-panel blue lighten-4">
-                    <h3>Italija</h3>
-                    <img class="responsive-img" src="img/43.jpg" alt="">
-                    <a class="btn orange" href="atrasti.php">Atrasti</a>
+                <div class="col s4 s1">
+                    <div class="card-panel blue lighten-4">
+                        <h3>Italija</h3>
+                        <img class="responsive-img" src="img/43.jpg" alt="">
+                        <a class="btn orange" href="atrasti.php">Atrasti</a>
+                    </div>
                 </div>
-            </div>
-            <div class="col s4 s1">
-                <div class="card-panel blue lighten-4">
-                    <h3>Turkija</h3>
-                    <img class="responsive-img" src="img/53.jpg" alt="">
-                    <a class="btn orange" href="atrasti.php">Atrasti</a>
+                <div class="col s4 s1">
+                    <div class="card-panel blue lighten-4">
+                        <h3>Turkija</h3>
+                        <img class="responsive-img" src="img/53.jpg" alt="">
+                        <a class="btn orange" href="atrasti.php">Atrasti</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -153,20 +154,22 @@
 
         <!-- Section: Follow (sekite) -->
 
-        <div class="row">
-            <div class="col s12">
-                <h4>Follow Geriausio kelionės</h4>
-                <p>Sekite mus socialiniuose tinkluose specialiems pasiūlymams</p>
-                <div class="card-image">
-                    <a href="#">
-                        <img class="fonas" src="img/facebook.png" alt="">
-                    </a>
-                    <a href="#">
-                        <img class="fonas" src="img/instagram.png" alt="">
-                    </a>
-                    <a href="#">
-                        <img class="fonas" src="img/search.png" alt="">
-                    </a>
+        <div style="background-color: blueviolet; color: #fff; text-align: center;">
+            <div class="row">
+                <div class="col s12">
+                    <h4>Follow Geriausio kelionės</h4>
+                    <p>Sekite mus socialiniuose tinkluose specialiems pasiūlymams</p>
+                    <div class="card-image">
+                        <a href="#">
+                            <img class="fonas" src="img/facebook.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="fonas" src="img/instagram.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="fonas" src="img/search.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -226,41 +229,7 @@
 
         <!-- Section (skyrius): Kontaktai (Contact) -->
 
-        <div class="row">
-            <div class="col s12 m6">
-                <div class="card-panel orange white-text center">
-                    <i class="material-icons">email</i>
-                    <h5>Susisiekite su mumis dėl rezervacijos</h5>
-                    <p>Gaukite geriausius kelionių pasiūlymus pirmi</p>
-                </div>
-                <ul class="collection with-header">
-                    <li class="collection-header">
-                        <h6>Vieta</h6>
-                    </li>
-                    <li class="collection-item">Geriausio Kelionės agentura</li>
-                    <li class="collection-item">Vilnius, Lietuva</li>
-                    <li class="collection-item">el.pastas@gmail.com</li>
-                </ul>
-            </div>
-            <div class="col s12 m6">
-                <div class="card-panel grey lighten-3">
-                    <h6>Prašome užpildyti šią formą</h6>
-                    <div class="input-field">
-                        <input type="text" placeholder="Vardas">
-                    </div>
-                    <div class="input-field">
-                        <input type="text" placeholder="El. paštas">
-                    </div>
-                    <div class="input-field">
-                        <input type="text" placeholder="Telefonas">
-                    </div>
-                    <div class="input-field">
-                        <textarea class="materialize-textarea" placeholder="Įveskite pranešimas"></textarea>
-                    </div>
-                    <input type="submit" value="Pateikti" class="btn">
-                </div>
-            </div>
-        </div>
+        
 
     </div>
 
