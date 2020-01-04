@@ -17,54 +17,59 @@
 </head>
 
 <body>
-    <div class="fonas1"></div>
+    <header>
+        <div class="fonas1"></div>
 
+        <!-- Section (skyrius):
+        1. Components (komponentai) -> Navbar (naršymo juosta) -> Mobile Collapse Button (Mobilusis sutraukimo mygtukas); -->
 
-    <!-- Section (skyrius):
-    1. Components (komponentai) -> Navbar (naršymo juosta) -> Mobile Collapse Button (Mobilusis sutraukimo mygtukas); -->
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Geriausio Kelionės</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="namai">Namai</a></li>
+                    <li><a href="paieška">Paieška</a></li>
+                    <li><a href="populiaros">Populiaros vietos</a></li>
+                    <li><a href="galerija">Galerija</a></li>
+                    <li><a href="kontaktai">Kontaktai</a></li>
+                </ul>
+            </div>
+        </nav>
 
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Geriausio Kelionės</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="namai">Namai</a></li>
-                <li><a href="paieška">Paieška</a></li>
-                <li><a href="populiaros">Populiaros vietos</a></li>
-                <li><a href="galerija">Galerija</a></li>
-                <li><a href="kontaktai">Kontaktai</a></li>
-            </ul>
-        </div>
-    </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="namai">Namai</a></li>
+            <li><a href="paieška">Paieška</a></li>
+            <li><a href="populiaros">Populiaros vietos</a></li>
+            <li><a href="galerija">Galerija</a></li>
+            <li><a href="kontaktai">Kontaktai</a></li>
+        </ul>
 
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="namai">Namai</a></li>
-        <li><a href="paieška">Paieška</a></li>
-        <li><a href="populiaros">Populiaros vietos</a></li>
-        <li><a href="galerija">Galerija</a></li>
-        <li><a href="kontaktai">Kontaktai</a></li>
-    </ul>
+    </header>
 
     <!-- Section (skyrius): 
         1.CSS -> grid (tinklelis) -> indroduction (įvadas) -->
-
-    <div class="container">
-        <div class="row">
-            <div class="col s6">
-                <img class="responsive-img" src="img/23.jpg" alt="">
-            </div>
-            <div class="col s6">
-                <h1>Nuotykis</h1>
-                <p>Tai mano svajonė keliauti po pasaulį.</p>
-                <p>Gyvenimas yra nuotykis, dalyvauk jame.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, recusandae!</p>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <img class="responsive-img" src="img/23.jpg" alt="">
+                </div>
+                <div class="col s6">
+                    <h1>Nuotykis</h1>
+                    <p>Tai mano svajonė keliauti po pasaulį.</p>
+                    <p>Gyvenimas yra nuotykis, dalyvauk jame.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, recusandae!</p>
+                </div>
             </div>
         </div>
+    </section>
 
-        <!-- Section (skyrius): Paieška (Search) 
+    <!-- Section (skyrius): Paieška (Search) 
         1. Forms (formos) -> autocomplete (automatinis) 
         2. HTML <input> placeholder Attribute w3schools.com (HTML <input> vietos rezervavimo ženklas atributas) -->
 
+    <section>
         <div style="background-color: red; color: #fff; text-align: center;">
             <div class="row">
                 <div class="col s12">
@@ -75,14 +80,16 @@
                 </div>
             </div>
         </div>
+    </section>
 
 
 
-        <!-- section (skyrius): 
+    <!-- section (skyrius): 
         1. CSS -> Grid (tinklelis) -> indroduction (įvadas) ...; 
         2. Components (komponentai) -> cards (korteles) -> image card (vaizdo kortele) ...; 
         3. CSS -> Grid (tinklelis) -> Example Promotion Table (Skatinimo lentelės pavyzdys) ... -->
 
+    <section>
         <div style="background-color: greenyellow; text-align: center;">
             <div class="row">
                 <div class="col s4 s1">
@@ -108,10 +115,12 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Section (skyrius): Popular Places (Populiaros vietos) 
+    <!-- Section (skyrius): Popular Places (Populiaros vietos) 
     1. -->
 
+    <section>
         <div class="row">
             <div class="col s12 m4">
                 <div class="card">
@@ -151,9 +160,11 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Section: Follow (sekite) -->
+    <!-- Section: Follow (sekite) -->
 
+    <section>
         <div style="background-color: blueviolet; color: #fff; text-align: center;">
             <div class="row">
                 <div class="col s12">
@@ -173,12 +184,13 @@
                 </div>
             </div>
         </div>
+    </section>
 
 
-        <!-- Section (skyrius): Gallery (galerija) 
+    <!-- Section (skyrius): Gallery (galerija) 
         1. JavaScript -> Media (žiniasklaida) -->
 
-
+    <footer>
         <h5 class="center">
             <span class="indigo-text darken-4">Foto</span> Galerija
         </h5>
@@ -226,12 +238,11 @@
                 <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beach,travel,boat" alt="">
             </div>
         </div>
+    </footer>
 
-        <!-- Section (skyrius): Kontaktai (Contact) -->
+    <!-- Section (skyrius): Kontaktai (Contact) -->
 
-        
 
-    </div>
 
 
     <!-- JavaScript korpuso gale, kad būtų galima optimaliai pakrauti (JavaScript at end of body for optimized loading) -->
