@@ -70,12 +70,14 @@
         2. HTML <input> placeholder Attribute w3schools.com (HTML <input> vietos rezervavimo ženklas atributas) -->
 
     <section>
-        <div style="background-color: red; color: #fff; text-align: center;">
-            <div class="row">
-                <div class="col s12">
-                    <h2>Paieška</h2>
-                    <div class="input-field col s12">
-                        <input type="text" id="autocomplete-input" class="autocomplete white grey-text" placeholder="Ispanija, Italija, Turkija, kiti...">
+        <div class="container">
+            <div style="background-color: red; color: #fff; text-align: center;">
+                <div class="row">
+                    <div class="col s12">
+                        <h2>Paieška</h2>
+                        <div class="input-field col s12">
+                            <input type="text" id="autocomplete-input" class="autocomplete white grey-text" placeholder="Ispanija, Italija, Turkija, kiti...">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -84,78 +86,85 @@
 
 
 
-    <!-- section (skyrius): 
+    <!-- section (skyrius): Popular Places (Populiaros vietos)
         1. CSS -> Grid (tinklelis) -> indroduction (įvadas) ...; 
         2. Components (komponentai) -> cards (korteles) -> image card (vaizdo kortele) ...; 
         3. CSS -> Grid (tinklelis) -> Example Promotion Table (Skatinimo lentelės pavyzdys) ... -->
 
     <section>
-        <div style="background-color: greenyellow; text-align: center;">
-            <div class="row">
-                <div class="col s4 s1">
-                    <div class="card-panel blue lighten-4">
-                        <h3>Ispanija</h3>
-                        <img class="responsive-img" src="img/32.jpg" alt="">
-                        <a class="btn orange" href="atrasti.php">Atrasti</a>
+        <div class="container">
+            <h5 class="center">
+                <span class="green-text darken-4">Populiaros vietos</span>
+            </h5>
+            <div style="background-color: greenyellow; text-align: center;">
+                <div class="row">
+                    <div class="col s4 s1">
+                        <div class="card-panel blue lighten-4">
+                            <h3>Ispanija</h3>
+                            <img class="responsive-img" src="img/32.jpg" alt="">
+                            <a class="btn orange" href="atrasti.php">Atrasti</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col s4 s1">
-                    <div class="card-panel blue lighten-4">
-                        <h3>Italija</h3>
-                        <img class="responsive-img" src="img/43.jpg" alt="">
-                        <a class="btn orange" href="atrasti.php">Atrasti</a>
+                    <div class="col s4 s1">
+                        <div class="card-panel blue lighten-4">
+                            <h3>Italija</h3>
+                            <img class="responsive-img" src="img/43.jpg" alt="">
+                            <a class="btn orange" href="atrasti.php">Atrasti</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col s4 s1">
-                    <div class="card-panel blue lighten-4">
-                        <h3>Turkija</h3>
-                        <img class="responsive-img" src="img/53.jpg" alt="">
-                        <a class="btn orange" href="atrasti.php">Atrasti</a>
+                    <div class="col s4 s1">
+                        <div class="card-panel blue lighten-4">
+                            <h3>Turkija</h3>
+                            <img class="responsive-img" src="img/53.jpg" alt="">
+                            <a class="btn orange" href="atrasti.php">Atrasti</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Section (skyrius): Popular Places (Populiaros vietos) 
+    <!-- Section (skyrius):  
     1. -->
 
     <section>
-        <div class="row">
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/3.jpg" alt="">
-                        <span class="card-title">Port Aventura atrakcionių parkas</span>
-                    </div>
-                    <div class="card-content">"PortAventura" parkas nėra labai panašus į jūsų įprastą, bėgimo
-                        pramogų parką. Viduje ši graži erdvė yra šeši unikalūs tema žemių, kiekvienas
-                        pademonstruotų ypač civilizacijos. Šios tematikos srityje apima tolimųjų Vakarų, Sesamo
-                        Aventura, Mediterrania, Polinezijos, Meksikos ir Kinijos.
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/2.jpg" alt="">
-                        <span class="card-title">Kultūra Koliziejus</span>
-                    </div>
-                    <div class="card-content">Koliziejus dar kitaip vadinamas Flavijaus amfiteatras –
-                        didžiausias ir seniausias pasaulyje amfiteatras, esantis Romoje, Italijoje. Garsėjo
-                        gladiatorių kovomis tarpusavyje ir prieš laukinius gyvūnus.
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/3.jpg" alt="">
+                            <span class="card-title">Port Aventura atrakcionių parkas</span>
+                        </div>
+                        <div class="card-content">"PortAventura" parkas nėra labai panašus į jūsų įprastą, bėgimo
+                            pramogų parką. Viduje ši graži erdvė yra šeši unikalūs tema žemių, kiekvienas
+                            pademonstruotų ypač civilizacijos. Šios tematikos srityje apima tolimųjų Vakarų, Sesamo
+                            Aventura, Mediterrania, Polinezijos, Meksikos ir Kinijos.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/4.jpg" alt="">
-                        <span class="card-title">Sagrada Familia bažnyčia</span>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/2.jpg" alt="">
+                            <span class="card-title">Kultūra Koliziejus</span>
+                        </div>
+                        <div class="card-content">Koliziejus dar kitaip vadinamas Flavijaus amfiteatras –
+                            didžiausias ir seniausias pasaulyje amfiteatras, esantis Romoje, Italijoje. Garsėjo
+                            gladiatorių kovomis tarpusavyje ir prieš laukinius gyvūnus.
+                        </div>
                     </div>
-                    <div class="card-content">Sagrada Familia bažnyčia – tai simbolinis Barselonos pastatas,
-                        kurį taip pat suprojektavo Antoni Gaudí. Nors vienas bažnyčios šonas yra nebaigtas,
-                        tačiau pastatas priklauso UNESCO saugomų objektų sąrašui.
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/4.jpg" alt="">
+                            <span class="card-title">Sagrada Familia bažnyčia</span>
+                        </div>
+                        <div class="card-content">Sagrada Familia bažnyčia – tai simbolinis Barselonos pastatas,
+                            kurį taip pat suprojektavo Antoni Gaudí. Nors vienas bažnyčios šonas yra nebaigtas,
+                            tačiau pastatas priklauso UNESCO saugomų objektų sąrašui.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -165,21 +174,23 @@
     <!-- Section: Follow (sekite) -->
 
     <section>
-        <div style="background-color: blueviolet; color: #fff; text-align: center;">
-            <div class="row">
-                <div class="col s12">
-                    <h4>Follow Geriausio kelionės</h4>
-                    <p>Sekite mus socialiniuose tinkluose specialiems pasiūlymams</p>
-                    <div class="card-image">
-                        <a href="#">
-                            <img class="fonas" src="img/facebook.png" alt="">
-                        </a>
-                        <a href="#">
-                            <img class="fonas" src="img/instagram.png" alt="">
-                        </a>
-                        <a href="#">
-                            <img class="fonas" src="img/search.png" alt="">
-                        </a>
+        <div class="container">
+            <div style="background-color: blueviolet; color: #fff; text-align: center;">
+                <div class="row">
+                    <div class="col s12">
+                        <h4>Follow Geriausio kelionės</h4>
+                        <p>Sekite mus socialiniuose tinkluose specialiems pasiūlymams</p>
+                        <div class="card-image">
+                            <a href="#">
+                                <img class="fonas" src="img/facebook.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img class="fonas" src="img/instagram.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img class="fonas" src="img/search.png" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -191,51 +202,53 @@
         1. JavaScript -> Media (žiniasklaida) -->
 
     <footer>
-        <h5 class="center">
-            <span class="indigo-text darken-4">Foto</span> Galerija
-        </h5>
-        <div class="row">
-            <div class="col s12 m3">
-                <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beach" alt="">
+        <div class="container">
+            <h5 class="center">
+                <span class="indigo-text darken-4">Foto Galerija</span>
+            </h5>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beach" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?travel" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?nature" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beach,travel" alt="">
+                </div>
             </div>
-            <div class="col s12 m3">
-                <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?travel" alt="">
-            </div>
-            <div class="col s12 m3">
-                <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?nature" alt="">
-            </div>
-            <div class="col s12 m3">
-                <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beach,travel" alt="">
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col s12 m3">
-                <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?water" alt="">
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?water" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?building" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?trees" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?cruise" alt="">
+                </div>
             </div>
-            <div class="col s12 m3">
-                <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?building" alt="">
-            </div>
-            <div class="col s12 m3">
-                <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?trees" alt="">
-            </div>
-            <div class="col s12 m3">
-                <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?cruise" alt="">
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col s12 m3">
-                <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beaches" alt="">
-            </div>
-            <div class="col s12 m3">
-                <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?traveling" alt="">
-            </div>
-            <div class="col s12 m3">
-                <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?bridge" alt="">
-            </div>
-            <div class="col s12 m3">
-                <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beach,travel,boat" alt="">
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beaches" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?traveling" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?bridge" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beach,travel,boat" alt="">
+                </div>
             </div>
         </div>
     </footer>
