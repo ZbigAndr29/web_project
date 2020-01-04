@@ -1,9 +1,23 @@
-.section-paieska {
+/* body {
+    margin: 0;
+} */
+
+nav {
+    color: #fff;
+    background-color: blueviolet;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+
+/* .style {
+    color: #fff;
     padding: 0px;
     font-size: 10px;
     width: 100%;
     border: #f4f4f4 3px solid;
-}
+    text-align: center;
+} */
 
 .card .card-image .card-title {
     color: #fff;
