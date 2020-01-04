@@ -22,8 +22,7 @@
     <div class="container"></div>
 
     <!-- Section (skyrius):
-        1. Components (komponentai) -> Navbar (naršymo juosta) -> Right Aligned Links (dešinė lygiuota nuorodos); 
-        2. Components (komponentai) -> Navbar (naršymo juosta) -> Mobile Collapse Button (Mobilusis sutraukimo mygtukas); -->
+    1. Components (komponentai) -> Navbar (naršymo juosta) -> Mobile Collapse Button (Mobilusis sutraukimo mygtukas); -->
 
     <nav class="blue">
         <div class="nav-wrapper">
@@ -116,8 +115,9 @@
         </div>
     </section>
 
-    <!-- Section (skyrius): Popular Places (Populiaros vietos) -->
-
+    <!-- Section (skyrius): Popular Places (Populiaros vietos) 
+    1. -->
+    
     <section id="populiarus" class="section section-populiarus scrollspy">
         <div class="container">
             <div class="row">
@@ -131,9 +131,6 @@
                             pramogų parką. Viduje ši graži erdvė yra šeši unikalūs tema žemių, kiekvienas
                             pademonstruotų ypač civilizacijos. Šios tematikos srityje apima tolimųjų Vakarų, Sesamo
                             Aventura, Mediterrania, Polinezijos, Meksikos ir Kinijos.
-                            <!-- Kiekviena iš šių sričių turi įdomių ir įdomus atrakcionai, kad atkreipti dėmesį į jų bendravardis unikalumą. Yra
-                                atrakcionai ir restoranai, kurių aplink civilizacijos temomis, kad jūsų vaikai gali
-                                mėgautis taip pat! -->
                         </div>
                     </div>
                 </div>
