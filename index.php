@@ -124,8 +124,8 @@
         </div>
     </section>
 
-    <!-- Section (skyrius):  
-    1. -->
+    <!-- Section (skyrius):
+        1.  -->
 
     <section>
         <div class="container">
