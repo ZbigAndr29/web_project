@@ -50,7 +50,7 @@
     <!-- Section (skyrius): 
         1.CSS -> grid (tinklelis) -> indroduction (įvadas) -->
     <section>
-        <div id="namai" class="container section scrollspy">
+        <div id="namai" class="container scrollspy">
             <div class="row">
                 <div class="col s6">
                     <img class="responsive-img" src="img/23.jpg" alt="">
@@ -69,7 +69,7 @@
         2. HTML <input> placeholder Attribute w3schools.com (HTML <input> vietos rezervavimo ženklas atributas) -->
 
     <section>
-        <div id="paieska" class="container section scrollspy">
+        <div id="paieska" class="container scrollspy">
             <div style="background-color: red; color: #fff; text-align: center;">
                 <div class="row">
                     <div class="col s12">
@@ -91,7 +91,7 @@
         3. CSS -> Grid (tinklelis) -> Example Promotion Table (Skatinimo lentelės pavyzdys) ... -->
 
     <section>
-        <div id="populiaros" class="container section scrollspy">
+        <div id="populiaros" class="container scrollspy">
             <h5 class="center">
                 <span class="green-text darken-4">Populiaros vietos</span>
             </h5>
@@ -201,7 +201,7 @@
         1. JavaScript -> Media (žiniasklaida) -->
 
     <footer>
-        <div id="galerija" class="container footer scrollspy">
+        <div id="galerija" class="container footer">
             <h5 class="center">
                 <span class="indigo-text darken-4">Foto Galerija</span>
             </h5>
