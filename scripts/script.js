@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //   JavaScript -> Scrollspy, ss - scrollspy
 
-  ocument.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function() {
     var ss = document.querySelectorAll('.scrollspy');
     var instances = M.ScrollSpy.init(ss);
   });
