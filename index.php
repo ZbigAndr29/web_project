@@ -59,7 +59,6 @@
                     <h1>Nuotykis</h1>
                     <p>Tai mano svajonė keliauti po pasaulį.</p>
                     <p>Gyvenimas yra nuotykis, dalyvauk jame.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, recusandae!</p>
                 </div>
             </div>
         </div>
