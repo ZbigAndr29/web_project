@@ -28,21 +28,21 @@
                 <a href="#!" class="brand-logo">Geriausio Kelionės</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="namai">Namai</a></li>
-                    <li><a href="paieška">Paieška</a></li>
-                    <li><a href="populiaros">Populiaros vietos</a></li>
-                    <li><a href="galerija">Galerija</a></li>
-                    <li><a href="kontaktai">Kontaktai</a></li>
+                    <li><a href="#namai">Namai</a></li>
+                    <li><a href="#paieska">Paieška</a></li>
+                    <li><a href="#populiaros">Populiaros vietos</a></li>
+                    <li><a href="#galerija">Galerija</a></li>
+                    <li><a href="#kontaktai">Kontaktai</a></li>
                 </ul>
             </div>
         </nav>
 
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="namai">Namai</a></li>
-            <li><a href="paieška">Paieška</a></li>
-            <li><a href="populiaros">Populiaros vietos</a></li>
-            <li><a href="galerija">Galerija</a></li>
-            <li><a href="kontaktai">Kontaktai</a></li>
+            <li><a href="#namai">Namai</a></li>
+            <li><a href="#paieska">Paieška</a></li>
+            <li><a href="#populiaros">Populiaros vietos</a></li>
+            <li><a href="#galerija">Galerija</a></li>
+            <li><a href="#kontaktai">Kontaktai</a></li>
         </ul>
 
     </header>
@@ -50,7 +50,7 @@
     <!-- Section (skyrius): 
         1.CSS -> grid (tinklelis) -> indroduction (įvadas) -->
     <section>
-        <div class="container">
+        <div id="namai" class="container section scrollspy">
             <div class="row">
                 <div class="col s6">
                     <img class="responsive-img" src="img/23.jpg" alt="">
@@ -70,7 +70,7 @@
         2. HTML <input> placeholder Attribute w3schools.com (HTML <input> vietos rezervavimo ženklas atributas) -->
 
     <section>
-        <div class="container">
+        <div id="paieska" class="container section scrollspy">
             <div style="background-color: red; color: #fff; text-align: center;">
                 <div class="row">
                     <div class="col s12">
@@ -92,7 +92,7 @@
         3. CSS -> Grid (tinklelis) -> Example Promotion Table (Skatinimo lentelės pavyzdys) ... -->
 
     <section>
-        <div class="container">
+        <div id="populiaros" class="container section scrollspy">
             <h5 class="center">
                 <span class="green-text darken-4">Populiaros vietos</span>
             </h5>
@@ -202,7 +202,7 @@
         1. JavaScript -> Media (žiniasklaida) -->
 
     <footer>
-        <div class="container">
+        <div id="galerija" class="container footer scrollspy">
             <h5 class="center">
                 <span class="indigo-text darken-4">Foto Galerija</span>
             </h5>

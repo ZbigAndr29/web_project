@@ -34,3 +34,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var mb = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(mb);
   });
+
+//   JavaScript -> Scrollspy, ss - scrollspy
+
+  ocument.addEventListener('DOMContentLoaded', function() {
+    var ss = document.querySelectorAll('.scrollspy');
+    var instances = M.ScrollSpy.init(ss);
+  });
