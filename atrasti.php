@@ -18,15 +18,21 @@
 
 <body>
 
+    <!-- Section (skyrius): -->
+
+
+
+
+
     <!-- Section (skyrius): Ispanija -->
 
-    <h1 class="left">
+    <h1 class="center-align">
         <span class="orange-text darken-1">Ispanija</span>
     </h1>
 
     <header>
-        <div class="kontaineris">
-            <div class="eile">
+        <div class="konteineris container">
+            <div class="eile row">
                 <div class="col s6">
                     <img class="responsive-img" src="https://source.unsplash.com/user/erondu/1500x900/?barcelona" alt="">
                 </div>

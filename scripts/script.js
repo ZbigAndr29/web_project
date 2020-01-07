@@ -41,3 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
     var ss = document.querySelectorAll('.scrollspy');
     var instances = M.ScrollSpy.init(ss);
   });
+
+// Forms (formas) -> Text Inputs (teksto ivestis) 
+
+  // $(document).ready(function() {
+  //   M.updateTextFields();
+  // });
