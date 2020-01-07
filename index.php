@@ -198,7 +198,7 @@
 
 
     <!-- Section (skyrius): Gallery (galerija) 
-        1. JavaScript -> Media (žiniasklaida) -->
+        1. JavaScript -> Media (žiniasklaida) -> Material Box; -->
 
     <footer>
         <div id="galerija" class="container footer">

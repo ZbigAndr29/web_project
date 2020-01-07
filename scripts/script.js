@@ -1,11 +1,11 @@
-// Sidenav 
+// Sidenav (materialize)
 document.addEventListener('DOMContentLoaded', function () {
     var sidenav = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(sidenav);
 });
 
 
-// Autocomplete (automatinis) ac - autocomplete
+// Autocomplete (automatinis) ac - autocomplete (materialize)
 
 document.addEventListener('DOMContentLoaded', function () {
     var ac = document.querySelectorAll('.autocomplete');

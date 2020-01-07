@@ -25,10 +25,10 @@
     </h1>
 
     <header>
-        <div class="container">
-            <div class="row">
+        <div class="kontaineris">
+            <div class="eile">
                 <div class="col s6">
-                    <img class="responsive-img" src="https://source.unsplash.com/user/erondu/1500x900/?barcelona,city" alt="">
+                    <img class="responsive-img" src="https://source.unsplash.com/user/erondu/1500x900/?barcelona" alt="">
                 </div>
                 <div class="col s6">
                     <h2>Barselona, Ispanija</h2>
