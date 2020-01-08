@@ -42,8 +42,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.ScrollSpy.init(ss);
   });
 
-// Forms (formas) -> Text Inputs (teksto ivestis) 
 
-  // $(document).ready(function() {
-  //   M.updateTextFields();
-  // });
+  // Forms -> Text Inputs -> Textarea
+  
+  $('#textarea1').val('New Text');
+  M.textareaAutoResize($('#textarea1'));

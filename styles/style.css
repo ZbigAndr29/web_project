@@ -26,7 +26,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    line-height: 1.5;
+    /* line-height: 1.5; */
 }
 
 .row .col {
@@ -94,4 +94,15 @@ h3 {
     margin-right: auto;
     /* margin-bottom: 20px; */
     line-height: 1.5;
+}
+
+#contact button [type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: gold;
+    color: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
 }

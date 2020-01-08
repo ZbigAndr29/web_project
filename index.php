@@ -88,7 +88,8 @@
     <!-- section (skyrius): Popular Places (Populiaros vietos)
         1. CSS -> Grid (tinklelis) -> indroduction (įvadas) ...; 
         2. Components (komponentai) -> cards (korteles) -> image card (vaizdo kortele) ...; 
-        3. CSS -> Grid (tinklelis) -> Example Promotion Table (Skatinimo lentelės pavyzdys) ... -->
+        3. CSS -> Grid (tinklelis) -> Example Promotion Table (Skatinimo lentelės pavyzdys) ... 
+        4. W3. CSS Panels (w3schools.com) -->
 
     <section>
         <div id="populiaros" class="container scrollspy">
@@ -97,21 +98,21 @@
             </h5>
             <div style="background-color: greenyellow; text-align: center;">
                 <div class="row">
-                    <div class="col s4 s1">
+                    <div class="col s4">
                         <div class="card-panel blue lighten-4">
                             <h3>Ispanija</h3>
                             <img class="responsive-img" src="img/32.jpg" alt="">
                             <a class="btn orange" href="atrasti.php">Atrasti</a>
                         </div>
                     </div>
-                    <div class="col s4 s1">
+                    <div class="col s4">
                         <div class="card-panel blue lighten-4">
                             <h3>Italija</h3>
                             <img class="responsive-img" src="img/43.jpg" alt="">
                             <a class="btn orange" href="atrasti.php">Atrasti</a>
                         </div>
                     </div>
-                    <div class="col s4 s1">
+                    <div class="col s4">
                         <div class="card-panel blue lighten-4">
                             <h3>Turkija</h3>
                             <img class="responsive-img" src="img/53.jpg" alt="">
@@ -198,7 +199,7 @@
 
 
     <!-- Section (skyrius): Gallery (galerija) 
-        1. JavaScript -> Media (žiniasklaida) -> Material Box; -->
+        1. JavaScript -> Media (žiniasklaida) -> Material Box -->
 
     <footer>
         <div id="galerija" class="container footer">
@@ -253,25 +254,46 @@
     </footer>
 
     <!-- Section (skyrius): Kontaktai (Contact) 
-        1. Forms -> Text Inputs -->
+        1. CSS -> Grid -> Introduction;
+        2. Forms -> Text Inputs -> Icon Prefixes, Textarea;
+        3. W3. CSS Panels (w3schools.com) -->
 
     <footer>
         <div class="container">
             <div class="row">
-                <form class="col s12">
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <i class="material-icons prefix">account_circle</i>
-                            <input id="icon_prefix" type="text" class="validate">
-                            <label for="icon_prefix">Vardas</label>
-                        </div>
-                        <div class="input-field col s12">
-                            <i class="material-icons prefix">phone</i>
-                            <input id="icon_telephone" type="tel" class="validate">
-                            <label for="icon_telephone">El. paštas</label>
-                        </div>
+                <div class="col s12 m6">
+                    <div class="card-panel center">
+                        <i class="large material-icons">email</i>
+                        <h4>Kontaktai</h4>
+                        <p>Nepraleisk progos gauti pigiausius pasiūlymus, naujienas ir patarimus</p>
                     </div>
-                </form>
+                </div>
+                <div class="col s12 m6 center">
+                    <div class="card-panel">
+                        <form>
+                            <div class="input-field">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" class="validate">
+                                <label for="icon_prefix">Vardas</label>
+                            </div>
+                            <div class="input-field">
+                                <i class="material-icons prefix">phone</i>
+                                <input id="icon_telephone" type="text" class="validate">
+                                <label for="icon_telephone">Telefonas</label>
+                            </div>
+                            <div class="input-field">
+                                <i class="material-icons prefix">email</i>
+                                <input id="icon_email" type="text" class="validate">
+                                <label for="icon_email">El. paštas</label>
+                            </div>
+                            <div class="input-field">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Textarea</label>
+                            </div>
+                            <button name="submit" type="submit" id="contact-submit">Siųsti</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
