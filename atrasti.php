@@ -18,9 +18,21 @@
 
 <body>
 
-    <!-- Section (skyrius): -->
-
-
+    <!-- Section (skyrius): 
+        1. Components > Navbar -> Right Aligned Links -->
+    
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Ispanija</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html"></a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">JavaScript</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
 
 
@@ -37,9 +49,9 @@
                     <img class="responsive-img" src="https://source.unsplash.com/user/erondu/1500x900/?barcelona" alt="">
                 </div>
                 <div class="col s6">
-                    <h2>Barselona, Ispanija</h2>
+                    <h2 class="tekstas">Barselona, Ispanija</h2>
                     <p>Vasaros kelionė į temperamentingąją Ispaniją!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, qui.</p>
+                    <p>Barselona – tai miestas Ispanijoje, kurio gatvėmis kiekvieną savaitę pražygiuoja daugiau nei milijonas turistų iš viso pasaulio; tai Katalonijos sostinė, kurioje yra įsikūrę 7 gražiausi Europos paplūdimiai; tai vieta, kuriai pamatus padėjo garsusis pusiau dievas, pusiau žmogus – Heraklis. Galiausiai – turistinis traukos centras, kurį turėtų aplankyti kiekvienas, kuris yra išsiilgęs saulės, aitrių kvapų ir flamingo taktų.</p>
                 </div>
             </div>
         </div>

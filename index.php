@@ -59,6 +59,7 @@
                     <h1>Nuotykis</h1>
                     <p>Tai mano svajonė keliauti po pasaulį.</p>
                     <p>Gyvenimas yra nuotykis, dalyvauk jame.</p>
+                    <p>Ilgai svajojate apie atpalaiduojantį poilsį balto smėlio paplūdimiuose besimėgaujant karštomis saulės voniomis ir vaizdu į spindinčią jūrą.</p>
                 </div>
             </div>
         </div>
@@ -125,7 +126,7 @@
     </section>
 
     <!-- Section (skyrius):
-        1.  -->
+        1. Components -> Cards... -->
 
     <section>
         <div class="container">
@@ -181,13 +182,13 @@
                         <h4>Follow Geriausio kelionės</h4>
                         <p>Sekite mus socialiniuose tinkluose specialiems pasiūlymams</p>
                         <div class="card-image">
-                            <a href="#">
+                            <a href="https://facebook.com">
                                 <img class="fonas" src="img/facebook.png" alt="">
                             </a>
-                            <a href="#">
+                            <a href="https://instagram.com">
                                 <img class="fonas" src="img/instagram.png" alt="">
                             </a>
-                            <a href="#">
+                            <a href="https://google.lt">
                                 <img class="fonas" src="img/search.png" alt="">
                             </a>
                         </div>
@@ -208,46 +209,58 @@
             </h5>
             <div class="row">
                 <div class="col s12 m3">
-                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beach" alt="">
+                    <img class="materialboxed responsive-img" src="img/beach.jpg" alt="">
+                    <span class="grey-text darken-1">Paplūdimys</span>
                 </div>
                 <div class="col s12 m3">
-                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?travel" alt="">
+                    <img class="materialboxed responsive-img" src="img/travel.jpg" alt="">
+                    <span class="grey-text darken-1">Kelionė</span>
                 </div>
                 <div class="col s12 m3">
-                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?nature" alt="">
+                    <img class="materialboxed responsive-img" src="img/nature.jpg" alt="">
+                    <span class="grey-text darken-1">Gamta</span>
                 </div>
                 <div class="col s12 m3">
-                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beach,travel" alt="">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col s12 m3">
-                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?water" alt="">
-                </div>
-                <div class="col s12 m3">
-                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?building" alt="">
-                </div>
-                <div class="col s12 m3">
-                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?trees" alt="">
-                </div>
-                <div class="col s12 m3">
-                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?cruise" alt="">
+                    <img class="materialboxed responsive-img" src="img/beach-travel.jpg" alt="">
+                    <span class="grey-text darken-1">Kelionės paplūdimiu</span>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col s12 m3">
-                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beaches" alt="">
+                    <img class="materialboxed responsive-img" src="img/water.jpg" alt="">
+                    <span class="grey-text darken-1">Vanduo</span>
                 </div>
                 <div class="col s12 m3">
-                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?traveling" alt="">
+                    <img class="materialboxed responsive-img" src="img/buildings.jpg" alt="">
+                    <span class="grey-text darken-1">Pastatai</span>
                 </div>
                 <div class="col s12 m3">
-                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?bridge" alt="">
+                    <img class="materialboxed responsive-img" src="img/trees.jpg" alt="">
+                    <span class="grey-text darken-1">Medžiai</span>
                 </div>
                 <div class="col s12 m3">
-                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/user/erondu/1600x900/?beach,travel,boat" alt="">
+                    <img class="materialboxed responsive-img" src="img/cruise.jpg" alt="">
+                    <span class="grey-text darken-1">Kruizas</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="img/beaches.jpg" alt="">
+                    <span class="grey-text darken-1">Paplūdimiai</span>
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="img/traveling.jpg" alt="">
+                    <span class="grey-text darken-1">Kelionės</span>
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="img/bridge.jpg" alt="">
+                    <span class="grey-text darken-1">Tiltas</span>
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="img/beach-travel-boat.jpg" alt="">
+                    <span class="grey-text darken-1">Plaukimas paplūdimiu</span>
                 </div>
             </div>
         </div>
@@ -259,7 +272,7 @@
         3. W3. CSS Panels (w3schools.com) -->
 
     <footer>
-        <div class="container">
+        <div id="kontaktai" class="container scrollspy">
             <div class="row">
                 <div class="col s12 m6">
                     <div class="card-panel center">
@@ -287,14 +300,23 @@
                                 <label for="icon_email">El. paštas</label>
                             </div>
                             <div class="input-field">
+                                <i class="material-icons prefix">mode_edit</i>
                                 <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                <label for="textarea1">Textarea</label>
+                                <label for="textarea1">Įveskite pranešimą</label>
                             </div>
-                            <button name="submit" type="submit" id="contact-submit">Siųsti</button>
+                            <p><button class="waves-effect waves-light btn" name="submit" type="submit" id="contact-submit">Siųsti</button></p>
                         </form>
                     </div>
                 </div>
             </div>
+        </div>
+    </footer>
+
+    <!-- Section (skyrius): Visos teises saugomos -->
+    
+    <footer>
+        <div class="container center">
+            <p class="copyright">© 2020. Visos teisės saugomos.</p>
         </div>
     </footer>
 

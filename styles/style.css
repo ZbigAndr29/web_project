@@ -96,13 +96,10 @@ h3 {
     line-height: 1.5;
 }
 
-#contact button [type="submit"] {
-    cursor: pointer;
+button[type="submit"] {
     width: 100%;
-    border: none;
-    background: gold;
-    color: #fff;
-    margin: 0 0 5px;
-    padding: 10px;
-    font-size: 15px;
+}
+
+h2.tekstas {
+    font-size: 30px;
 }

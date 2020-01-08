@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
     var instances = M.Sidenav.init(sidenav);
 });
 
-
 // Autocomplete (automatinis) ac - autocomplete (materialize)
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -45,5 +44,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Forms -> Text Inputs -> Textarea
   
-  $('#textarea1').val('New Text');
-  M.textareaAutoResize($('#textarea1'));
+  $("#textarea1").val("");
+  M.textareaAutoResize($("#textarea1"));
