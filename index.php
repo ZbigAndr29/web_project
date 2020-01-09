@@ -103,7 +103,7 @@
                         <div class="card-panel blue lighten-4">
                             <h3>Ispanija</h3>
                             <img class="responsive-img" src="img/32.jpg" alt="">
-                            <a class="btn orange" href="atrasti.php">Atrasti</a>
+                            <a class="btn orange waves-effect waves-light" href="atrasti.php">Atrasti</a>
                         </div>
                     </div>
                     <div class="col s4">
@@ -275,14 +275,14 @@
         <div id="kontaktai" class="container scrollspy">
             <div class="row">
                 <div class="col s12 m6">
-                    <div class="card-panel center">
+                    <div class="card-panel center blue-grey lighten-4" style="height: 100%;">
                         <i class="large material-icons">email</i>
                         <h4>Kontaktai</h4>
                         <p>Nepraleisk progos gauti pigiausius pasiūlymus, naujienas ir patarimus</p>
                     </div>
                 </div>
-                <div class="col s12 m6 center">
-                    <div class="card-panel">
+                <div class="col s12 m6">
+                    <div class="card-panel center blue-grey lighten-4" style="height: 100%;">
                         <form>
                             <div class="input-field">
                                 <i class="material-icons prefix">account_circle</i>
@@ -308,12 +308,13 @@
                         </form>
                     </div>
                 </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18449.493463506984!2d25.252953605163764!3d54.68874243804504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd940f28c9f5ef%3A0x436260edb229adee!2sCentras%2C%20Vilnius%2001107!5e0!3m2!1slt!2slt!4v1578581909218!5m2!1slt!2slt" width="1000" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </div>
         </div>
     </footer>
 
     <!-- Section (skyrius): Visos teises saugomos -->
-    
+
     <footer>
         <div class="container center">
             <p class="copyright">© 2020. Visos teisės saugomos.</p>

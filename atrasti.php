@@ -19,19 +19,30 @@
 <body>
 
     <!-- Section (skyrius): 
-        1. Components > Navbar -> Right Aligned Links -->
-    
+        1. Components (komponentai) -> Navbar (naršymo juosta) -> Mobile Collapse Button (Mobilusis sutraukimo mygtukas); -->
+
     <header>
         <nav>
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo">Ispanija</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="sass.html"></a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
+                <a href="#!" class="brand-logo">Geriausio Kelionės</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#namai">Namai</a></li>
+                    <li><a href="#paieska">Paieška</a></li>
+                    <li><a href="#populiaros">Populiaros vietos</a></li>
+                    <li><a href="#galerija">Galerija</a></li>
+                    <li><a href="#kontaktai">Kontaktai</a></li>
                 </ul>
             </div>
         </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#namai">Namai</a></li>
+            <li><a href="#paieska">Paieška</a></li>
+            <li><a href="#populiaros">Populiaros vietos</a></li>
+            <li><a href="#galerija">Galerija</a></li>
+            <li><a href="#kontaktai">Kontaktai</a></li>
+        </ul>
     </header>
 
 
@@ -45,10 +56,10 @@
     <header>
         <div class="konteineris container">
             <div class="eile row">
-                <div class="col s6">
+                <div class="col s6" style="height: 100%;">
                     <img class="responsive-img" src="https://source.unsplash.com/user/erondu/1500x900/?barcelona" alt="">
                 </div>
-                <div class="col s6">
+                <div class="col s6" style="height: 100%;">
                     <h2 class="tekstas">Barselona, Ispanija</h2>
                     <p>Vasaros kelionė į temperamentingąją Ispaniją!</p>
                     <p>Barselona – tai miestas Ispanijoje, kurio gatvėmis kiekvieną savaitę pražygiuoja daugiau nei milijonas turistų iš viso pasaulio; tai Katalonijos sostinė, kurioje yra įsikūrę 7 gražiausi Europos paplūdimiai; tai vieta, kuriai pamatus padėjo garsusis pusiau dievas, pusiau žmogus – Heraklis. Galiausiai – turistinis traukos centras, kurį turėtų aplankyti kiekvienas, kuris yra išsiilgęs saulės, aitrių kvapų ir flamingo taktų.</p>
@@ -60,9 +71,9 @@
     <!-- Section (skyrius):
         1. Components -> Footer (poraštės) -->
 
-    <header class="page-footer">
-        <div class="container">
-            <div class="row">
+    <main class="page-footer">
+        <div class="siena container">
+            <div class="eilute row">
                 <div class="col l6 s12">
                     <h5 class="white-text">Footer Content</h5>
                     <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
@@ -78,7 +89,7 @@
                 </div>
             </div>
         </div>
-    </header>
+    </main>
 
 
 
