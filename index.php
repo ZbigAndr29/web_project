@@ -290,11 +290,6 @@
                                 <label for="icon_prefix">Vardas</label>
                             </div>
                             <div class="input-field">
-                                <i class="material-icons prefix">phone</i>
-                                <input id="icon_telephone" type="text" class="validate">
-                                <label for="icon_telephone">Telefonas</label>
-                            </div>
-                            <div class="input-field">
                                 <i class="material-icons prefix">email</i>
                                 <input id="icon_email" type="text" class="validate">
                                 <label for="icon_email">El. paštas</label>
@@ -322,12 +317,11 @@
     </footer>
 
 
-
-
     <!-- JavaScript korpuso gale, kad būtų galima optimaliai pakrauti (JavaScript at end of body for optimized loading) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="scripts/script.js"></script>
 
+              
 </body>
 
 </html>

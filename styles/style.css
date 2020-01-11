@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 nav {
@@ -94,5 +97,30 @@ button[type="submit"] {
 }
 
 h2.tekstas {
-    font-size: 30px;
+    font-size: 20px;
+    margin: 0;
 }
+
+.copyright {
+    background: rgb(141, 141, 245);
+}
+
+ul:not(.browser-default) {
+    padding-left: 2px;
+    list-style-type: none;
+    margin: 0;
+}
+
+main {
+    flex: 1 0 auto;
+  }
+
+  .paveikslas {
+      background: gold;
+      color: black;
+  }
+
+  .paveikslas2 {
+    background: rgb(189, 233, 123);
+    color: black;
+} 
