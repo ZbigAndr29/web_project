@@ -66,8 +66,12 @@
     </section>
 
     <!-- Section (skyrius): Paieška (Search) 
-        1. Forms (formos) -> autocomplete (automatinis) 
-        2. HTML <input> placeholder Attribute w3schools.com (HTML <input> vietos rezervavimo ženklas atributas) -->
+        1. Forms (formos) -> Autocomplete (automatinis) -> Initialization (inicijavimas) -> Option (parinkti)
+        -> Data (Duomenų objektas apibrėžia automatinio užbaigimo parinktis su pasirinktomis piktogramų eilutėmis)pvz. data: {
+            "Apple": null,
+            "Microsoft": null,
+            "Google": null, 
+        } -->
 
     <section>
         <div id="paieska" class="container scrollspy">
@@ -89,8 +93,7 @@
     <!-- section (skyrius): Popular Places (Populiaros vietos)
         1. CSS -> Grid (tinklelis) -> indroduction (įvadas) ...; 
         2. Components (komponentai) -> cards (korteles) -> image card (vaizdo kortele) ...; 
-        3. CSS -> Grid (tinklelis) -> Example Promotion Table (Skatinimo lentelės pavyzdys) ... 
-        4. W3. CSS Panels (w3schools.com) -->
+        3. CSS -> Grid (tinklelis) -> Example Promotion Table (Skatinimo lentelės pavyzdys) ... -->
 
     <section>
         <div id="populiaros" class="container scrollspy">
@@ -126,7 +129,8 @@
     </section>
 
     <!-- Section (skyrius):
-        1. Components -> Cards... -->
+        1. Components (komponentai) -> Cards (korteles) -> Image Cards (vaizdo korteles)
+        Čia yra standartinė kortelė su vaizdo miniatiūra  -->
 
     <section>
         <div class="container">
@@ -200,7 +204,8 @@
 
 
     <!-- Section (skyrius): Gallery (galerija) 
-        1. JavaScript -> Media (žiniasklaida) -> Material Box -->
+        1. JavaScript -> Media (žiniasklaida) -> Material Box 
+        Sukurti pirmiau vaizdas su efektas yra taip paprasta, kaip pridėti medžiaga tiktas klasę vaizdo žyma -->
 
     <footer>
         <div id="galerija" class="container footer">
@@ -321,7 +326,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="scripts/script.js"></script>
 
-              
+
 </body>
 
 </html>

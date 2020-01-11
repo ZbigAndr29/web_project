@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded', function () {
     var instances = M.Sidenav.init(sidenav);
 });
 
-// Autocomplete (automatinis) ac - autocomplete (materialize)
+// // Autocomplete (automatinis) ac - autocomplete (materialize)
 
 document.addEventListener('DOMContentLoaded', function () {
     var ac = document.querySelectorAll('.autocomplete');
     var instances = M.Autocomplete.init(ac, {
-        data: {
+          data: {
             "Ispanija": null,
             "Italija": null,
             "Turkija": null,
@@ -26,6 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+
 
 // JavaScript -> Media
 // Material Boxed (medziaga dezuteje) mb - material boxed
