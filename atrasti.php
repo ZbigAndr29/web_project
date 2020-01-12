@@ -99,7 +99,7 @@
                             <i class="small material-icons">local_parking</i>
                             <a class="grey-text text-lighten-3" href="#!">Automobilių stovėjimo aikštelė</a>
                         </li>
-                        <a href="https://www.skyscanner.net/hotels/spain/barcelona-hotels/u232-hotel/ht-46939817?checkin=2020-01-11&checkout=2020-01-12&rooms=1&adults=2&clicked_details_funnel=meta&clicked_details_partner=h_ck&clicked_details_price=70&currency=EUR&locale=en-GB&market=LT&search_cycle_id=3a9dab37a1e38559b24886a9f057795c5230e5a245186b4a2f49749924e38477&search_entity_id=27548283"><button class="waves-effect waves-light orange btn" id="contact-submit">Žiūrėti detales</button></a>
+                        <a href="https://www.skyscanner.net/hotels/spain/barcelona-hotels/u232-hotel/ht-46939817?checkin=2020-01-21&checkout=2020-01-22&rooms=1&adults=2&clicked_details_funnel=meta&clicked_details_partner=h_ck&clicked_details_price=70&currency=EUR&locale=en-GB&market=LT&search_cycle_id=3a9dab37a1e38559b24886a9f057795c5230e5a245186b4a2f49749924e38477&search_entity_id=27548283"><button class="waves-effect waves-light orange btn" id="contact-submit">Žiūrėti detales</button></a>
                     </ul>
                 </div>
             </div>
@@ -138,7 +138,7 @@
                             <i class="small material-icons">directions_bus</i>
                             <a class="grey-text text-lighten-3" href="#!">Pervežimas iš/į oro uostą</a>
                         </li>
-                        <a href="https://www.skyscanner.net/hotels/spain/barcelona-hotels/aparthotel-mariano-cubi-barcelona/ht-47050380?checkin=2020-01-11&checkout=2020-01-12&rooms=1&adults=2&clicked_details_funnel=meta&clicked_details_partner=h_bc&clicked_details_price=54&currency=EUR&locale=en-GB&market=LT&search_cycle_id=3a9dab37a1e38559b24886a9f057795c5230e5a245186b4a2f49749924e38477&search_entity_id=27548283"><button class="waves-effect waves-light green btn" id="contact-submit">Žiūrėti detales</button></a>
+                        <a href="https://www.skyscanner.net/hotels/spain/barcelona-hotels/aparthotel-mariano-cubi-barcelona/ht-47050380?checkin=2020-01-21&checkout=2020-01-22&rooms=1&adults=2&clicked_details_funnel=meta&clicked_details_partner=h_bc&clicked_details_price=54&currency=EUR&locale=en-GB&market=LT&search_cycle_id=3a9dab37a1e38559b24886a9f057795c5230e5a245186b4a2f49749924e38477&search_entity_id=27548283"><button class="waves-effect waves-light green btn" id="contact-submit">Žiūrėti detales</button></a>
                     </ul>
                 </div>
             </div>
@@ -153,10 +153,10 @@
         <div class="siena3 container">
             <div class="eilute3 row">
                 <div class="col l6">
-                    <img class="responsive-img" src="img/viesbutis2.jpg" alt="">
+                    <img class="responsive-img" src="img/viesbutis3.jpg" alt="">
                 </div>
                 <div class="col l4 offset-l2">
-                    <h5 class="white-text">Expo Hotel Barcelona</h5>
+                    <h5 class="white-text">Sunotel Aston</h5>
                     <ul>
                         <li><a class="zvaigzdes" href="#!">
                                 <i class="small material-icons">star</i>
@@ -167,15 +167,15 @@
                         <li><i class="small material-icons">filter_7</i>
                             <a class="grey-text text-lighten-3" href="#!">Gerai</a>
                         </li>
-                        <li><a class="grey-text text-lighten-3" href="#!">"Nuostabi vieta", "Kambarys yra viskas gerai"</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">"Nuostabi vieta", "Skanūs pusryčiai"</a></li>
                         <li><i class="small material-icons">star</i>
                             <a class="grey-text text-lighten-3" href="#!">WiFi</a>
-                            <i class="small material-icons">ac_unit</i>
-                            <a class="grey-text text-lighten-3" href="#!">Oro kondicionavimas</a>
                             <i class="small material-icons">local_parking</i>
                             <a class="grey-text text-lighten-3" href="#!">Automobilių stovėjimo aikštelė</a>
+                            <i class="small material-icons">hotel</i>
+                            <a class="grey-text text-lighten-3" href="#!">Registratūra dirba 24 valandas</a>
                         </li>
-                        <a href="https://www.skyscanner.net/hotels/spain/barcelona-hotels/expo-hotel-barcelona/ht-117339437?checkin=2020-01-11&checkout=2020-01-12&rooms=1&adults=2&clicked_details_funnel=dbook&clicked_details_partner=d_ct&clicked_details_price=65&currency=EUR&locale=en-GB&market=LT&search_cycle_id=3a9dab37a1e38559b24886a9f057795c5230e5a245186b4a2f49749924e38477&search_entity_id=27548283"><button class="waves-effect waves-light blue btn" id="contact-submit">Žiūrėti detales</button></a>
+                        <a href="https://www.skyscanner.net/hotels/spain/barcelona-hotels/sunotel-aston/ht-46963623?checkin=2020-01-21&checkout=2020-01-22&rooms=1&adults=2&clicked_details_funnel=dbook&clicked_details_partner=d_ct&clicked_details_price=34&currency=EUR&locale=en-GB&market=LT&search_cycle_id=78785048795bf8c74af8588573d5b48f9668d9ef6a61e42d4de534008639a0bf&search_entity_id=117339437"><button class="waves-effect waves-light red btn" id="contact-submit">Žiūrėti detales</button></a>
                     </ul>
                 </div>
             </div>
