@@ -57,7 +57,7 @@
         <div class="konteineris container">
             <div class="eile row">
                 <div class="col s6" style="height: 100%;">
-                    <img class="responsive-img" src="https://source.unsplash.com/user/erondu/1500x900/?barcelona" alt="">
+                    <img class="responsive-img" src="img/barcelona.jpg" alt="">
                 </div>
                 <div class="col s6" style="height: 100%;">
                     <h2 class="tekstas">Barselona, Ispanija</h2>
