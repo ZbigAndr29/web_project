@@ -101,8 +101,8 @@ h2.tekstas {
     margin: 0;
 }
 
-.copyright {
-    background: rgb(141, 141, 245);
+/* .copyright {
+    background: rgb(141, 141, 245); */
 }
 
 ul:not(.browser-default) {
