@@ -141,10 +141,11 @@
                             <img src="img/3.jpg" alt="">
                             <span class="card-title">Port Aventura atrakcionių parkas</span>
                         </div>
-                        <div class="card-content">"PortAventura" parkas nėra labai panašus į jūsų įprastą, bėgimo
+                        <div class="card-content">
+                            <p>"PortAventura" parkas nėra labai panašus į jūsų įprastą, bėgimo
                             pramogų parką. Viduje ši graži erdvė yra šeši unikalūs tema žemių, kiekvienas
                             pademonstruotų ypač civilizacijos. Šios tematikos srityje apima tolimųjų Vakarų, Sesamo
-                            Aventura, Mediterrania, Polinezijos, Meksikos ir Kinijos.
+                            Aventura, Mediterrania, Polinezijos, Meksikos ir Kinijos.</p>
                         </div>
                     </div>
                 </div>
@@ -154,9 +155,10 @@
                             <img src="img/2.jpg" alt="">
                             <span class="card-title">Kultūra Koliziejus</span>
                         </div>
-                        <div class="card-content">Koliziejus dar kitaip vadinamas Flavijaus amfiteatras –
+                        <div class="card-content">
+                            <p>Koliziejus dar kitaip vadinamas Flavijaus amfiteatras –
                             didžiausias ir seniausias pasaulyje amfiteatras, esantis Romoje, Italijoje. Garsėjo
-                            gladiatorių kovomis tarpusavyje ir prieš laukinius gyvūnus.
+                            gladiatorių kovomis tarpusavyje ir prieš laukinius gyvūnus.</p>
                         </div>
                     </div>
                 </div>
@@ -166,9 +168,10 @@
                             <img src="img/4.jpg" alt="">
                             <span class="card-title">Sagrada Familia bažnyčia</span>
                         </div>
-                        <div class="card-content">Sagrada Familia bažnyčia – tai simbolinis Barselonos pastatas,
+                        <div class="card-content">
+                            <p>Sagrada Familia bažnyčia – tai simbolinis Barselonos pastatas,
                             kurį taip pat suprojektavo Antoni Gaudí. Nors vienas bažnyčios šonas yra nebaigtas,
-                            tačiau pastatas priklauso UNESCO saugomų objektų sąrašui.
+                            tačiau pastatas priklauso UNESCO saugomų objektų sąrašui.</p>
                         </div>
                     </div>
                 </div>
