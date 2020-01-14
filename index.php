@@ -48,7 +48,8 @@
     </header>
 
     <!-- Section (skyrius): 
-        1.CSS -> grid (tinklelis) -> indroduction (įvadas) -->
+        1.CSS -> grid (tinklelis) -> indroduction (įvadas) 
+        2. HTML Text Formating -->
     <section>
         <div id="namai" class="container scrollspy">
             <div class="row">
@@ -57,9 +58,10 @@
                 </div>
                 <div class="col s6">
                     <h1>Nuotykis</h1>
-                    <p>Tai mano svajonė keliauti po pasaulį.</p>
-                    <p>Gyvenimas yra nuotykis, dalyvauk jame.</p>
-                    <p>Ilgai svajojate apie atpalaiduojantį poilsį balto smėlio paplūdimiuose besimėgaujant karštomis saulės voniomis ir vaizdu į spindinčią jūrą.</p>
+                    <p><b>Tai mano svajonė keliauti po pasaulį.</b></p>
+                    <p><b>Gyvenimas yra nuotykis, dalyvauk jame.</b></p>
+                    <p><b>Ilgai svajojate apie atpalaiduojantį poilsį balto smėlio paplūdimiuose besimėgaujant karštomis saulės voniomis ir vaizdu į spindinčią jūrą.</b></p>
+                    <p><b>Kelionių tikslas yra pagal tikrovę pertvarkyti vaizduotę ir vietoj galvojimo, kaip dalykai galėtų atrodyti, pamatyti, kokie jie yra iš tiesų.</b></p>
                 </div>
             </div>
         </div>
@@ -106,21 +108,21 @@
                         <div class="card-panel blue lighten-4">
                             <h3>Ispanija</h3>
                             <img class="responsive-img" src="img/32.jpg" alt="">
-                            <a class="btn orange waves-effect waves-light" href="atrasti.php">Atrasti</a>
+                            <a class="btn orange waves-effect waves-light" href="atrasti.php?id=3">Atrasti</a>
                         </div>
                     </div>
                     <div class="col s4">
                         <div class="card-panel blue lighten-4">
                             <h3>Italija</h3>
                             <img class="responsive-img" src="img/43.jpg" alt="">
-                            <a class="btn orange" href="atrasti.php">Atrasti</a>
+                            <a class="btn orange" href="atrasti.php?id=1">Atrasti</a>
                         </div>
                     </div>
                     <div class="col s4">
                         <div class="card-panel blue lighten-4">
                             <h3>Turkija</h3>
                             <img class="responsive-img" src="img/53.jpg" alt="">
-                            <a class="btn orange" href="atrasti.php">Atrasti</a>
+                            <a class="btn orange" href="atrasti.php?id=2">Atrasti</a>
                         </div>
                     </div>
                 </div>
@@ -277,7 +279,8 @@
     <!-- Section (skyrius): Kontaktai (Contact) 
         1. CSS -> Grid -> Introduction;
         2. Forms -> Text Inputs -> Icon Prefixes, Textarea;
-        3. W3. CSS Panels (w3schools.com) -->
+        3. W3. CSS Panels (w3schools.com)
+        4. Components -> Icons (<i class=""...>) -->
 
     <footer>
         <div id="kontaktai" class="container scrollspy">
@@ -311,7 +314,7 @@
                         </form>
                     </div>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18449.493463506984!2d25.252953605163764!3d54.68874243804504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd940f28c9f5ef%3A0x436260edb229adee!2sCentras%2C%20Vilnius%2001107!5e0!3m2!1slt!2slt!4v1578581909218!5m2!1slt!2slt" width="1000" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18449.493463506984!2d25.252953605163764!3d54.68874243804504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd940f28c9f5ef%3A0x436260edb229adee!2sCentras%2C%20Vilnius%2001107!5e0!3m2!1slt!2slt!4v1578581909218!5m2!1slt!2slt" width="1200" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </div>
         </div>
     </footer>

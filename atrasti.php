@@ -14,6 +14,8 @@
 
     <!-- Importuoti (import) Google libraries Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <?php include "db_connection.php"; ?>
 </head>
 
 <body>
@@ -47,26 +49,51 @@
 
 
 
-    <!-- Section (skyrius): Ispanija -->
+    <!-- Section (skyrius): Ispanija 
+    1. HTML Text Formating -->
 
-    <h1 class="center-align">
-        <span class="orange-text darken-1">Ispanija</span>
-    </h1>
 
-    <header>
-        <div class="konteineris container">
-            <div class="eile row">
-                <div class="col s6" style="height: 100%;">
-                    <img class="responsive-img" src="img/barcelona.jpg" alt="">
-                </div>
-                <div class="col s6" style="height: 100%;">
-                    <h2 class="tekstas">Barselona, Ispanija</h2>
-                    <p>Vasaros kelionė į temperamentingąją Ispaniją!</p>
-                    <p>Barselona – tai miestas Ispanijoje, kurio gatvėmis kiekvieną savaitę pražygiuoja daugiau nei milijonas turistų iš viso pasaulio; tai Katalonijos sostinė, kurioje yra įsikūrę 7 gražiausi Europos paplūdimiai; tai vieta, kuriai pamatus padėjo garsusis pusiau dievas, pusiau žmogus – Heraklis. Galiausiai – turistinis traukos centras, kurį turėtų aplankyti kiekvienas, kuris yra išsiilgęs saulės, aitrių kvapų ir flamingo taktų.</p>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php
+
+            $sql = "SELECT * FROM countries WHERE id = " . $_GET["id"];
+            $result = mysqli_query($conn, $sql);
+
+            if (mysqli_num_rows($result) > 0) {
+
+                // output data of each row
+                $row = mysqli_fetch_assoc($result);
+
+            ?>
+
+                <h1 class="center-align">
+                    <span class="orange-text darken-1"><?php echo $row["name"]; ?></span>
+                </h1>
+
+                <header>
+                    <div class="konteineris container">
+                        <div class="eile row">
+                            <div class="col s6" style="height: 100%;">
+                                <img class="responsive-img" src="<?php echo $row["image"]; ?>" alt="">
+                            </div>
+                            <div class="col s6" style="height: 100%;">
+                                <?php echo $row["description"]; ?>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+            <?php
+
+            } else {
+
+                echo "0 results";
+            }
+
+            ?>
+
+
+
+    
 
     <!-- Section (skyrius): apie Viešbutis Nr. 1
         1. Components -> Footer (poraštės) 

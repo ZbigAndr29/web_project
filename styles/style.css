@@ -108,7 +108,7 @@ button[type="submit"] {
 }
 
 h2.tekstas {
-    font-size: 20px;
+    font-size: 25px;
     margin: 0;
 }
 
@@ -135,3 +135,13 @@ main {
     background: rgb(189, 233, 123);
     color: black;
 } 
+
+b {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.card .card-content p {
+    margin: 0;
+    font-size: 20px;
+}
