@@ -49,3 +49,34 @@ document.addEventListener('DOMContentLoaded', function() {
   
   $("#textarea1").val("");
   M.textareaAutoResize($("#textarea1"));
+
+
+
+
+//   $(document).ready(function() {
+
+//     $("#contact").on("submit", function(event) {
+
+//         event.preventDefault();
+
+//         var data = $(this).serialize();
+//         //var dataArray = $(this).serializeArray();
+
+//         console.log(data);
+//         console.log(dataArray);
+
+//         $.post("send.php", data, function(data) {
+
+//             console.log(data);
+
+//             if (data == "message_sent") {
+
+//                 $("#contact-submit").text("Išsiųsta").addClass("sent");
+
+//             } else {
+
+//                 $("#contact-submit").text("Klaida!").addClass("error");
+//             }
+//         });
+//     });
+// });

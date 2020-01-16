@@ -294,20 +294,20 @@
                 </div>
                 <div class="col s12 m6">
                     <div class="card-panel center blue-grey lighten-4" style="height: 100%;">
-                        <form>
+                        <form target="_blank" id="contact" action="sent.php" method="post">
                             <div class="input-field">
                                 <i class="material-icons prefix">account_circle</i>
-                                <input id="icon_prefix" type="text" class="validate">
+                                <input id="icon_prefix" type="text" name="vardas" class="validate">
                                 <label for="icon_prefix">Vardas</label>
                             </div>
                             <div class="input-field">
                                 <i class="material-icons prefix">email</i>
-                                <input id="icon_email" type="text" class="validate">
+                                <input id="icon_email" type="text" name="email" class="validate">
                                 <label for="icon_email">El. paštas</label>
                             </div>
                             <div class="input-field">
                                 <i class="material-icons prefix">mode_edit</i>
-                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <textarea id="textarea1" name="message" class="materialize-textarea"></textarea>
                                 <label for="textarea1">Įveskite pranešimą</label>
                             </div>
                             <p><button class="waves-effect waves-light btn" name="submit" type="submit" id="contact-submit">Siųsti</button></p>
