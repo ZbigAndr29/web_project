@@ -53,30 +53,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-//   $(document).ready(function() {
+  $(document).ready(function() {
 
-//     $("#contact").on("submit", function(event) {
+    $("#contact").on("submit", function(event) {
 
-//         event.preventDefault();
+        event.preventDefault();
 
-//         var data = $(this).serialize();
-//         //var dataArray = $(this).serializeArray();
+        var data = $(this).serialize();
+        //var dataArray = $(this).serializeArray();
 
-//         console.log(data);
-//         console.log(dataArray);
+        console.log(data);
+        // console.log(dataArray);
 
-//         $.post("send.php", data, function(data) {
+        $.post("sent.php", data, function(data) {
 
-//             console.log(data);
+            console.log(data);
 
-//             if (data == "message_sent") {
+            if (data == "message_sent") {
 
-//                 $("#contact-submit").text("Išsiųsta").addClass("sent");
+                $("#contact-submit").text("Išsiųsta").addClass("sent");
 
-//             } else {
+            } else {
 
-//                 $("#contact-submit").text("Klaida!").addClass("error");
-//             }
-//         });
-//     });
-// });
+                $("#contact-submit").text("Klaida!").addClass("error");
+            }
+        });
+    });
+});
