@@ -64,7 +64,11 @@ document.addEventListener('DOMContentLoaded', function() {
         //var dataArray = $(this).serializeArray();
 
         console.log(data);
+<<<<<<< HEAD
         console.log(dataArray);
+=======
+        // console.log(dataArray);
+>>>>>>> 83e8840bf7d34e979d469e1976ea70b1a45090b6
 
         $.post("sent.php", data, function(data) {
 

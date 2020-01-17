@@ -150,10 +150,13 @@ b {
 
 .places {
     width: 100%;
+<<<<<<< HEAD
 }
 
 img.responsive-img, video.responsive-video {
     max-width: 100%;
     height: auto;
     width: 100%;
+=======
+>>>>>>> 83e8840bf7d34e979d469e1976ea70b1a45090b6
 }
