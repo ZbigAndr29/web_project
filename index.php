@@ -107,21 +107,21 @@
                     <div class="col s4">
                         <div class="card-panel blue lighten-4">
                             <h3>Ispanija</h3>
-                            <img class="responsive-img" src="img/32.jpg" alt="">
+                            <img class="responsive-img places-thumbnail" src="img/32.jpg" alt="">
                             <a class="btn orange waves-effect waves-light" href="atrasti.php?id=3">Atrasti</a>
                         </div>
                     </div>
                     <div class="col s4">
                         <div class="card-panel blue lighten-4">
                             <h3>Italija</h3>
-                            <img class="responsive-img" src="img/43.jpg" alt="">
+                            <img class="responsive-img places-thumbnail" src="img/43.jpg" alt="">
                             <a class="btn orange" href="atrasti.php?id=1">Atrasti</a>
                         </div>
                     </div>
                     <div class="col s4">
                         <div class="card-panel blue lighten-4">
                             <h3>Turkija</h3>
-                            <img class="responsive-img" src="img/53.jpg" alt="">
+                            <img class="responsive-img places-thumbnail" src="img/53.jpg" alt="">
                             <a class="btn orange" href="atrasti.php?id=2">Atrasti</a>
                         </div>
                     </div>
