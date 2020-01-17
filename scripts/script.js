@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var instances = M.Sidenav.init(sidenav);
 });
 
-// // Autocomplete (automatinis) ac - autocomplete (materialize)
+// Autocomplete (automatinis) ac - autocomplete (materialize)
 
 document.addEventListener('DOMContentLoaded', function () {
     var ac = document.querySelectorAll('.autocomplete');
@@ -64,11 +64,9 @@ document.addEventListener('DOMContentLoaded', function() {
         //var dataArray = $(this).serializeArray();
 
         console.log(data);
-<<<<<<< HEAD
         console.log(dataArray);
-=======
+
         // console.log(dataArray);
->>>>>>> 83e8840bf7d34e979d469e1976ea70b1a45090b6
 
         $.post("sent.php", data, function(data) {
 
