@@ -95,9 +95,9 @@
 
     
 
-    <!-- Section (skyrius): apie Viešbutis Nr. 1
-        1. Components -> Footer (poraštės) 
-        2. Components -> Icons (piktogramos) -->
+    <!-- Section (skyrius): Viešbutis Nr. 1
+        1. Components (komponentai) -> Footer (poraštės) 
+        2. Components (komponentai) -> Icons (piktogramos) -->
 
     <main class="page-footer">
         <div class="siena container">
@@ -134,9 +134,9 @@
     </main>
 
 
-    <!-- Section (skyrius): apie Viešbutis Nr. 2
-        1. Components -> Footer (poraštės) 
-        2. Components -> Icons (piktogramos) -->
+    <!-- Section (skyrius): Viešbutis Nr. 2
+        1. Components (komponentai) -> Footer (poraštės) 
+        2. Components (komponentai) -> Icons (piktogramos) -->
 
         <main class="paveikslas page-footer">
         <div class="siena2 container">
@@ -172,9 +172,9 @@
         </div>
     </main>
 
-    <!-- Section (skyrius): apie Viešbutis Nr. 3
-        1. Components -> Footer (poraštės) 
-        2. Components -> Icons (piktogramos) -->
+    <!-- Section (skyrius): Viešbutis Nr. 3
+        1. Components (komponentai)  -> Footer (poraštės) 
+        2. Components (komponentai) -> Icons (piktogramos) -->
 
         <main class="paveikslas2 page-footer">
         <div class="siena3 container">

@@ -21,12 +21,22 @@
         <div class="fonas1"></div>
 
         <!-- Section (skyrius):
-        1. Components (komponentai) -> Navbar (naršymo juosta) -> Mobile Collapse Button (Mobilusis sutraukimo mygtukas); -->
+
+        1. Components (komponentai) -> Navbar (naršymo juosta) 
+
+        -> Mobile Collapse Button (Mobilusis sutraukimo mygtukas); 
+
+        Kai savo NAV juosta yra keičiamas, jūs pamatysite, kad nuorodos dešinėje pasukti į mėsainis piktograma meniu. Peržiūrėkite toliau pateiktą pavyzdį, kad gautumėte šią funkciją. Įtraukite visą SideNav-paleidiklio liniją į savo Nav 
+
+        - Scrollspy
+
+        Scrollspy yra jQuery prijungti, kad stebi tam tikrus elementus ir kuris elementas vartotojo ekrano šiuo metu centre. Mūsų pagrindinė demo tai yra mūsų lentelės turinį kiekvieną dokumentacijos puslapyje į dešinę. Paspaudę ant šių nuorodų, taip pat slinkti puslapį į šį elementą. -->
 
         <nav>
             <div class="nav-wrapper">
                 <a href="#!" class="brand-logo">Geriausio Kelionės</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i>
+                </a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#namai">Namai</a></li>
                     <li><a href="#paieska">Paieška</a></li>
@@ -47,9 +57,17 @@
 
     </header>
 
-    <!-- Section (skyrius): 
-        1.CSS -> grid (tinklelis) -> indroduction (įvadas) 
-        2. HTML Text Formating -->
+    <!-- Section (skyrius):   
+        1.CSS -> grid (tinklelis) -> indroduction (įvadas) -> Columns live inside Rows (Stulpeliai gyvena viduje eilutės)
+
+        Pažvelkite į šį skyrių atrodo greitai suprasti, kaip tinklelis veikia!
+
+        - Stulpeliai gyvena viduje eilutės
+        Atminkite, kai kuriate maketą, kad visi stulpeliai turi būti viduje eilutę ir kad turite pridėti col klasę į savo vidinį DIV-ų padaryti juos į stulpelius
+
+        2. HTML Text Formating 
+        HTML (Hiperteksto žymėjimo kalba) <b> elementas apibrėžia paryškintąjį tekstą be jokios papildomos reikšmės -->
+
     <section>
         <div id="namai" class="container scrollspy">
             <div class="row">
@@ -68,8 +86,15 @@
     </section>
 
     <!-- Section (skyrius): Paieška (Search) 
-        1. Forms (formos) -> Autocomplete (automatinis) -> Initialization (inicijavimas) -> Option (parinkti)
-        -> Data (Duomenų objektas apibrėžia automatinio užbaigimo parinktis su pasirinktomis piktogramų eilutėmis)pvz. data: {
+
+        1. Forms (formos) -> Autocomplete (automatinis) 
+        
+        -> Initialization (inicijavimas) 
+
+        Pridėkite automatinio užbaigimo išplečiamąjį meniu po įvestimi ir pasiūlykite savo formoje galimas reikšmes. Jūs galite užpildyti automatinio užbaigimo parinkčių sąrašą dinamiškai taip pat.
+
+        -> Option (pasirinkimas/variantas) -> Data (Duomenų objektas apibrėžia automatinio užbaigimo parinktis su pasirinktomis piktogramų eilutėmis); null - niekinis/nebūdingas
+        pvz. data: {
             "Apple": null,
             "Microsoft": null,
             "Google": null, 
@@ -92,10 +117,22 @@
 
 
 
-    <!-- section (skyrius): Popular Places (Populiaros vietos)
-        1. CSS -> Grid (tinklelis) -> indroduction (įvadas) ...; 
-        2. Components (komponentai) -> cards (korteles) -> image card (vaizdo kortele) ...; 
-        3. CSS -> Grid (tinklelis) -> Example Promotion Table (Skatinimo lentelės pavyzdys) ... -->
+    <!-- section (skyrius): Populiaros vietos
+        1. CSS (pakopiniai stilių šablonai) -> Grid (tinklelis) -> indroduction (įvadas) ...; 
+
+        2. Components (komponentai) -> cards (korteles) -> image card (vaizdo kortele)
+
+        Čia yra standartinė kortelė su vaizdo miniatiūra.
+
+        3. CSS -> Grid (tinklelis) -> Example Promotion Table (Skatinimo lentelės pavyzdys) 
+        
+        Jei norime 3 DIV-ų, kurie yra vienodo dydžio, mes apibrėžiame DIV-ų su 4 stulpelių pločiu, 4 + 4 + 4 gražiai prideda iki 12. Viduje šių DIV-ų, mes galime įdėti mūsų turinį. Pavyzdžiui, paimkite mūsų puslapio turinį. Tai šiek tiek modifikinome šio pavyzdžio labui  
+    
+        <a>..</a> -  Jei elementas turi href atributą, tai yra hipersaitas (hiperteksto inkaras), pažymėtas jo turiniu 
+    
+        4. JavaScript -> Waves (bangos) -> Applying Waves (taikant bangos) "waves-efect waves-light": 
+        
+        Bangų efektas gali būti taikomas bet kokiam elementui. Norėdami įdėti bangos poveikį mygtukus, tereikia įdėti klasės bangos poveikį mygtukus. Jei norite, kad bangos efektas būtų oranžinis vietoj, pridėti tiek bangų poveikio bangos-šviesa, kaip klases -->
 
     <section>
         <div id="populiaros" class="container scrollspy">
@@ -145,9 +182,9 @@
                         </div>
                         <div class="card-content">
                             <p>"PortAventura" parkas nėra labai panašus į jūsų įprastą, bėgimo
-                            pramogų parką. Viduje ši graži erdvė yra šeši unikalūs tema žemių, kiekvienas
-                            pademonstruotų ypač civilizacijos. Šios tematikos srityje apima tolimųjų Vakarų, Sesamo
-                            Aventura, Mediterrania, Polinezijos, Meksikos ir Kinijos.</p>
+                                pramogų parką. Viduje ši graži erdvė yra šeši unikalūs tema žemių, kiekvienas
+                                pademonstruotų ypač civilizacijos. Šios tematikos srityje apima tolimųjų Vakarų, Sesamo
+                                Aventura, Mediterrania, Polinezijos, Meksikos ir Kinijos.</p>
                         </div>
                     </div>
                 </div>
@@ -159,8 +196,8 @@
                         </div>
                         <div class="card-content">
                             <p>Koliziejus dar kitaip vadinamas Flavijaus amfiteatras –
-                            didžiausias ir seniausias pasaulyje amfiteatras, esantis Romoje, Italijoje. Garsėjo
-                            gladiatorių kovomis tarpusavyje ir prieš laukinius gyvūnus.</p>
+                                didžiausias ir seniausias pasaulyje amfiteatras, esantis Romoje, Italijoje. Garsėjo
+                                gladiatorių kovomis tarpusavyje ir prieš laukinius gyvūnus.</p>
                         </div>
                     </div>
                 </div>
@@ -172,8 +209,8 @@
                         </div>
                         <div class="card-content">
                             <p>Sagrada Familia bažnyčia – tai simbolinis Barselonos pastatas,
-                            kurį taip pat suprojektavo Antoni Gaudí. Nors vienas bažnyčios šonas yra nebaigtas,
-                            tačiau pastatas priklauso UNESCO saugomų objektų sąrašui.</p>
+                                kurį taip pat suprojektavo Antoni Gaudí. Nors vienas bažnyčios šonas yra nebaigtas,
+                                tačiau pastatas priklauso UNESCO saugomų objektų sąrašui.</p>
                         </div>
                     </div>
                 </div>
@@ -278,9 +315,26 @@
 
     <!-- Section (skyrius): Kontaktai (Contact) 
         1. CSS -> Grid -> Introduction;
-        2. Forms -> Text Inputs -> Icon Prefixes, Textarea;
+        2. Forms (formos) -> Text Inputs (teksto įvestis) 
+
+        -> Icon Prefixes (piktogramos priešdėliai):
+        Galite pridėti piktogramos priešdėlį, kad formos įvesties žyma būtų dar aiškesnė. Tiesiog pridėkite piktogramą su klasės priešvardį prieš įvestį ir etiketę; 
+        
+        Textarea (teksto sritis):
+        Teksto sritys leidžia didesnį išplečiamo vartotojo įvestį. Siena turėtų būti lengvai ir aiškiai nurodoma, kurį lauką naudotojas šiuo metu redaguoja. Jūs privalote turėti. Input-Field div vyniojimo jūsų įvestį ir etiketę. Tai naudojama tik mūsų įvesties ir teksto srities formos elementuose.
+
+        Teksto sritys automatiškai pakeis tekstą viduje.
+
+        Kai dinamiškai keičia teksto srityje su metodais, pavyzdžiui, jQuery's .val (), turite suaktyvinti automatinį dydį jį po žodžių, nes .val.() automatiškai nesuaktyvins įvykių, kuriuos susiejome su teksto sritimi.
+
         3. W3. CSS Panels (w3schools.com)
-        4. Components -> Icons (<i class=""...>) -->
+        Bootstrap Panels (Įkrovos juostos skydai);
+
+        4. Components (komponentai) -> Icons (piktogramos) (<i class="material-icons">add</i>) 
+        Norėdami naudoti šias piktogramas, naudokite elementų piktogramų klasę elemente ir pateikite ligatūrą kaip teksto turinį;
+    
+        5. Iframe <inframe>...</inframe> - nustatyti aukštį ir plotį
+            Naudokite aukščio ir pločio atributus, kad nurodytumėte iframe dydį -->
 
     <footer>
         <div id="kontaktai" class="container scrollspy">
