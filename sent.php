@@ -23,7 +23,7 @@ if (
         $headers = "Form: $email" . "\r\n";
         "CC: zbig.andr@gmail.com";
 
-        // mail($to, $subject, $txt, $headers);
+        mail($to, $subject, $txt, $headers);
 
         $sql = "INSERT INTO messages(id, name, email, message, date)
                 VALUES (null, '$name', '$email', '$message', null)";

@@ -20,13 +20,14 @@
     <header>
         <div class="fonas1"></div>
 
+
         <!-- Section (skyrius):
 
         1. Components (komponentai) -> Navbar (naršymo juosta) 
 
         -> Mobile Collapse Button (Mobilusis sutraukimo mygtukas); 
 
-        Kai savo NAV juosta yra keičiamas, jūs pamatysite, kad nuorodos dešinėje pasukti į mėsainis piktograma meniu. Peržiūrėkite toliau pateiktą pavyzdį, kad gautumėte šią funkciją. Įtraukite visą SideNav-paleidiklio liniją į savo Nav 
+        Kai jūsų naršymo juostos dydis bus pakeistas, pamatysite, kad dešinėje esančios nuorodos virsta mėsainių piktogramų meniu. Pažvelkite į žemiau pateiktą pavyzdį, kad gautumėte šią funkciją. Pridėkite visą „sidenav“ trigerio eilutę prie savo navigacijos.
 
         - Scrollspy
 
@@ -368,7 +369,7 @@
                         </form>
                     </div>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18449.493463506984!2d25.252953605163764!3d54.68874243804504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd940f28c9f5ef%3A0x436260edb229adee!2sCentras%2C%20Vilnius%2001107!5e0!3m2!1slt!2slt!4v1578581909218!5m2!1slt!2slt" width="1200" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18449.493463506984!2d25.252953605163764!3d54.68874243804504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd940f28c9f5ef%3A0x436260edb229adee!2sCentras%2C%20Vilnius%2001107!5e0!3m2!1slt!2slt!4v1578581909218!5m2!1slt!2slt" width="1130" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </div>
         </div>
     </footer>
